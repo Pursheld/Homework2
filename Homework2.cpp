@@ -6,6 +6,7 @@
 int main()
 {
 	std::string name;
+	int x;
 
 
 	name = "max";
@@ -13,9 +14,11 @@ int main()
 	std::cout << name << "\n";
 
 	std::cout << name.length()<< "\n";
+
+	x = name.length();
 	
 	std::cout << name[0] << "\n";
 	
-	std::cout << name[2] << "";
+	std::cout << name[x - 1] << "";
 	
 }
